@@ -32,12 +32,12 @@ public class HeuristicOperators {
 	}
 
 	// map parameter to correct iterations number
-	int adjustParameter(int first, int second, int third, int forth, int fifth, int sixth, double parameter) {
+	int adjustParameter(int third, int forth, int fifth, int sixth, double parameter) {
 		if (parameter < 0.2) {
-			return first;
+			return 1;
 		}
 		else if (parameter < 0.4) {
-			return second;
+			return 2;
 		}
 		else if (parameter < 0.6) {
 			return third;

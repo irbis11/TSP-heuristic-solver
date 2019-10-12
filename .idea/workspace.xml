@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d444baeb-b445-4596-b9e2-6376e0de35e3" name="Default Changelist" comment="" />
+    <list default="true" id="d444baeb-b445-4596-b9e2-6376e0de35e3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/g52aim/project/tsp/heuristics/AdjacentSwap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/g52aim/project/tsp/heuristics/AdjacentSwap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/g52aim/project/tsp/heuristics/CrossoverHeuristicOperators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/g52aim/project/tsp/heuristics/CrossoverHeuristicOperators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/g52aim/project/tsp/heuristics/DavissHillClimbing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/g52aim/project/tsp/heuristics/DavissHillClimbing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/g52aim/project/tsp/heuristics/HeuristicOperators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/g52aim/project/tsp/heuristics/HeuristicOperators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/g52aim/project/tsp/heuristics/NextDescent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/g52aim/project/tsp/heuristics/NextDescent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/g52aim/project/tsp/heuristics/OX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/g52aim/project/tsp/heuristics/OX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/g52aim/project/tsp/heuristics/PMX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/g52aim/project/tsp/heuristics/PMX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/g52aim/project/tsp/heuristics/Reinsertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/g52aim/project/tsp/heuristics/Reinsertion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/g52aim/project/tsp/heuristics/TwoOpt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/g52aim/project/tsp/heuristics/TwoOpt.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1S7ZaUPraUN0FiHD9V5obSNW7zF" />
   <component name="ProjectViewState">
@@ -17,7 +31,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545756288668" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/G52AIM Framework JARs/jfreechart-1.0.19.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -76,6 +90,7 @@
       <workItem from="1545755565876" duration="177000" />
       <workItem from="1545755757914" duration="1127000" />
       <workItem from="1570916661489" duration="1332000" />
+      <workItem from="1570920456624" duration="410000" />
     </task>
     <servers />
   </component>
@@ -95,22 +110,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="666" y="277" width="588" height="503" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1570917847115" />
-    <state width="1876" height="277" key="GridCell.Tab.0.bottom" timestamp="1570917994254">
+    <state width="1876" height="277" key="GridCell.Tab.0.bottom" timestamp="1570920866301">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1570917994254" />
-    <state width="1876" height="277" key="GridCell.Tab.0.center" timestamp="1570917994254">
+    <state width="1876" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1570920866301" />
+    <state width="1876" height="277" key="GridCell.Tab.0.center" timestamp="1570920866301">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1570917994254" />
-    <state width="1876" height="277" key="GridCell.Tab.0.left" timestamp="1570917994254">
+    <state width="1876" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1570920866301" />
+    <state width="1876" height="277" key="GridCell.Tab.0.left" timestamp="1570920866301">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1570917994254" />
-    <state width="1876" height="277" key="GridCell.Tab.0.right" timestamp="1570917994254">
+    <state width="1876" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1570920866301" />
+    <state width="1876" height="277" key="GridCell.Tab.0.right" timestamp="1570920866301">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1570917994254" />
+    <state width="1876" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1570920866301" />
     <state x="758" y="186" key="SettingsEditor" timestamp="1570917853371">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

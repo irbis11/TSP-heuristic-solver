@@ -20,7 +20,7 @@ public class AdjacentSwap extends HeuristicOperators implements HeuristicInterfa
 	@Override
 	public double apply(TSPSolutionInterface solution, double depthOfSearch, double intensityOfMutation) {
 		// setting initial variables
-		int adjustedIOM = adjustParameter(1, 2, 4, 8, 16, 32, intensityOfMutation);
+		int adjustedIOM = adjustParameter(4, 8, 16, 32, intensityOfMutation);
 		ArrayList<Integer> tour = solution.getSolutionRepresentation().getRepresentationOfSolution();
 		double currentFitness = solution.getObjectiveFunctionValue();
 		for (int i = 0; i < adjustedIOM; i++) {

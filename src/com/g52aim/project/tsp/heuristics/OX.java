@@ -26,7 +26,7 @@ public class OX extends CrossoverHeuristicOperators implements XOHeuristicInterf
 	@Override
 	public double apply(TSPSolutionInterface p1, TSPSolutionInterface p2, TSPSolutionInterface c, double depthOfSearch, double intensityOfMutation) {
 		// setting initial variables
-		int adjustedIOM = adjustParameter(1, 2, 3, 4, 5, 6, intensityOfMutation);
+		int adjustedIOM = adjustParameter(intensityOfMutation);
 		ArrayList<Integer> parent1 = new ArrayList<>(p1.getSolutionRepresentation().getRepresentationOfSolution());
 		ArrayList<Integer> parent2 = new ArrayList<>(p2.getSolutionRepresentation().getRepresentationOfSolution());
 		int parentSize = parent1.size();

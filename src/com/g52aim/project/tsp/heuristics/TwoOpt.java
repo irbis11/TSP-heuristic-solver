@@ -20,7 +20,7 @@ public class TwoOpt extends HeuristicOperators implements HeuristicInterface {
 	@Override
 	public double apply(TSPSolutionInterface solution, double dos, double iom) {
 		// setting initial variables
-		int adjustedIOM = adjustParameter(1, 2, 3, 4, 5, 6, iom);
+		int adjustedIOM = adjustParameter(3, 4, 5, 6, iom);
 		ArrayList<Integer> tour = solution.getSolutionRepresentation().getRepresentationOfSolution();
 		ArrayList<Integer> previousTour = new ArrayList<>(tour);
 		double currentFitness = solution.getObjectiveFunctionValue();

@@ -27,7 +27,7 @@ public class PMX extends CrossoverHeuristicOperators implements XOHeuristicInter
 	@Override
 	public double apply(TSPSolutionInterface p1, TSPSolutionInterface p2, TSPSolutionInterface c, double depthOfSearch, double intensityOfMutation) {
 		// setting initial variables
-		int adjustedIOM = adjustParameter(1, 2, 3, 4, 5, 6, intensityOfMutation);
+		int adjustedIOM = adjustParameter(intensityOfMutation);
 		ArrayList<Integer> parent1 = new ArrayList<>(p1.getSolutionRepresentation().getRepresentationOfSolution());
 		ArrayList<Integer> parent2 = new ArrayList<>(p2.getSolutionRepresentation().getRepresentationOfSolution());
 		int parentSize = parent1.size();
@@ -36,8 +36,8 @@ public class PMX extends CrossoverHeuristicOperators implements XOHeuristicInter
 			// setting additional variables
 			int[] parentCuts = createCutPoints(p1.getNumberOfCities());
 			int cutLength = parentCuts[1] - parentCuts[0];
-			HashMap firstMapping = new HashMap();
-			HashMap secondMapping = new HashMap();
+			HashMap<Integer, Integer> firstMapping = new HashMap<>();
+			HashMap<Integer, Integer> secondMapping = new HashMap<>();
 			ArrayList<Integer> child1 = new ArrayList<>(parentSize);
 			child1 = initializeArrayListAsNulls(child1, parentSize);
 			ArrayList<Integer> child2 = new ArrayList<>(parentSize);
@@ -66,9 +66,9 @@ public class PMX extends CrossoverHeuristicOperators implements XOHeuristicInter
 					child1.set(indexChild1, parent1.get(indexParent));
 				}
 				else {
-					int temp = (Integer) secondMapping.get(parent1.get(indexParent));
+					int temp = secondMapping.get(parent1.get(indexParent));
 					while (child1.contains(temp)) {
-						temp = (Integer) secondMapping.get(temp);
+						temp = secondMapping.get(temp);
 					}
 					child1.set(indexChild1, temp);
 				}
@@ -77,9 +77,9 @@ public class PMX extends CrossoverHeuristicOperators implements XOHeuristicInter
 					child2.set(indexChild2, parent2.get(indexParent));
 				}
 				else {
-					int temp = (Integer) firstMapping.get(parent2.get(indexParent));
+					int temp = firstMapping.get(parent2.get(indexParent));
 					while (child2.contains(temp)) {
-						temp = (Integer) firstMapping.get(temp);
+						temp = firstMapping.get(temp);
 					}
 					child2.set(indexChild2, temp);
 				}

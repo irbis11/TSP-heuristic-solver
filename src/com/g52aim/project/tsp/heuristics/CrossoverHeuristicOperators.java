@@ -31,24 +31,24 @@ public class CrossoverHeuristicOperators {
 	}
 
 	// map parameter to correct iterations number
-	int adjustParameter(int first, int second, int third, int forth, int fifth, int sixth, double parameter) {
+	int adjustParameter(double parameter) {
 		if (parameter < 0.2) {
-			return first;
+			return 1;
 		}
 		else if (parameter < 0.4) {
-			return second;
+			return 2;
 		}
 		else if (parameter < 0.6) {
-			return third;
+			return 3;
 		}
 		else if (parameter < 0.8) {
-			return forth;
+			return 4;
 		}
 		else if (parameter < 1.0) {
-			return fifth;
+			return 5;
 		}
 		else if (parameter == 1) {
-			return sixth;
+			return 6;
 		}
 		return 0;
 	}

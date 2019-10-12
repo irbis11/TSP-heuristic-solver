@@ -19,7 +19,7 @@ public class Reinsertion extends HeuristicOperators implements HeuristicInterfac
 	@Override
 	public double apply(TSPSolutionInterface solution, double depthOfSearch, double intensityOfMutation) {
 		// setting initial variables
-		int adjustedIOM = adjustParameter(1, 2, 3, 4, 5, 6, intensityOfMutation);
+		int adjustedIOM = adjustParameter(3, 4, 5, 6, intensityOfMutation);
 		ArrayList<Integer> tour = solution.getSolutionRepresentation().getRepresentationOfSolution();
 		ArrayList<Integer> previousTour = new ArrayList<>(tour);
 		double currentFitness = solution.getObjectiveFunctionValue();

@@ -21,7 +21,7 @@ public class NextDescent extends HeuristicOperators implements HeuristicInterfac
 	@Override
 	public double apply(TSPSolutionInterface solution, double dos, double iom) {
 		// setting initial variables
-		int adjustedDOS = adjustParameter(1, 2, 3, 4, 5, 6, dos);
+		int adjustedDOS = adjustParameter(3, 4, 5, 6, dos);
 		ArrayList<Integer> tour = solution.getSolutionRepresentation().getRepresentationOfSolution();
 		double currentFitness = solution.getObjectiveFunctionValue();
 		for (int i = 0; i < adjustedDOS; i++) {
