@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="G52AIM Framework JARs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/G52AIM Framework JARs/G52AIM Framework.jar!/" />
+      <root url="jar://$PROJECT_DIR$/G52AIM Framework JARs/jcommon-1.0.23.jar!/" />
+      <root url="jar://$PROJECT_DIR$/G52AIM Framework JARs/jfreechart-1.0.19-swt.jar!/" />
+      <root url="jar://$PROJECT_DIR$/G52AIM Framework JARs/jfreechart-1.0.19.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/G52AIM Framework JARs/G52AIM Framework.jar!/" />
+    </SOURCES>
+  </library>
+</component>

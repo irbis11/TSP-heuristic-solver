@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="VisualiserLibrary">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/G52AIM Framework JARs/Visualiser" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/G52AIM Framework JARs/Visualiser" recursive="false" />
+  </library>
+</component>
